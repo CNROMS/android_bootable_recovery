@@ -12,9 +12,12 @@ fork from https://github.com/xiaolu/android_bootable_recovery.
 > BOARD_CUSTTOM_GRAPHICS := bootable/recovery-cnroms/minui/graphics_cn.c
 
 字库名中含有"fontcn"，会自动使用中文资源编译:
-* 1920x1080
+*   1920x1080
+
     > BOARD_USE_CUSTOM_RECOVERY_FONT := \"fontcn46_28x73.h\"
-* 2560x1440
+
+*   2560x1440
+
     > BOARD_USE_CUSTOM_RECOVERY_FONT := \"fontcn60_36x87.h\"
 
 编译时把相应分辨率的virtual_key_res/virtual_keys_xxx.png拷贝到配置目录recovery/res/images/下，并改名为virtual_keys.png
