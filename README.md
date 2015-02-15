@@ -9,6 +9,7 @@ COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD #修复双清缓慢，非必需
 COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE #加上这个选项会使用QCOM的时间修复
 
 中文：
+> 
 BOARD_CUSTTOM_GRAPHICS := bootable/recovery-cnroms/minui/graphics_cn.c
 
 字库名中含有"fontcn"，会自动使用中文资源编译:
