@@ -1,3 +1,5 @@
+fork from https://github.com/xiaolu/android_bootable_recovery.
+
 通用配置:
 RECOVERY_USE_MIGRATED_STORAGE := true #强制使用/data/media/0作为/sdcard，非必需
 RECOVERY_USE_VIRTUAL_KEY := true #使用虚拟按键，非必需
